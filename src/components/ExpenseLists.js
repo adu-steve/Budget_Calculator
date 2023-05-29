@@ -9,6 +9,7 @@ export const ExpenseLists = ({ expenses }) => {
           return <ExpenseItem key={expense.id} expense={expense} />;
         })}
       </ul>
+      {expenses.length > 0 && <button className="btn">Clear Expenses</button>}
     </>
   );
 };

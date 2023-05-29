@@ -10,6 +10,7 @@ const initialExpenses = [
   { id: v4(), charge: "rent", amount: 1000 },
   { id: v4(), charge: "house", amount: 1020 },
   { id: v4(), charge: "car", amount: 2000 },
+  { id: v4(), charge: "car", amount: 2000 },
 ];
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <ExpenseLists expenses={expenses} />
       </main>
       <h1>
-        total spending:{" "}
+        total spending:
         <span className="total">
           $
           {expenses.reduce((acc, curr) => {
