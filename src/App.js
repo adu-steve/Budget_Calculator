@@ -1,5 +1,4 @@
 import "./App.css";
-
 import { Alert } from "./components/Alert";
 import { ExpenseForm } from "./components/ExpenseForm";
 import { v4 } from "uuid";
